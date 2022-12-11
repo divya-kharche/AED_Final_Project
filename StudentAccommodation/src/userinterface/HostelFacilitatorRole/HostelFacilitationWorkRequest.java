@@ -437,7 +437,7 @@ public class HostelFacilitationWorkRequest extends javax.swing.JPanel {
             
             message.setFrom(new InternetAddress(email));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(request.getStudent().getEmailAddress()));
-            message.setSubject("Public Shelter Allocation");
+            message.setSubject("Hostel Allocation");
             String messg = "You will be picked on " + txtFieldPickupDate.getText() + " at " + txtFieldPickupTime.getText() + " and dropped at " + request.getAddressToBePlaced();
             message.setText(messg);
 

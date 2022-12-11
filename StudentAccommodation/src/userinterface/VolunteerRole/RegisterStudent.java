@@ -705,7 +705,7 @@ public class RegisterStudent extends javax.swing.JPanel {
             org.getWorkQueue().getWorkRequestList().add(request);
             userAccount.getWorkQueue().getWorkRequestList().add(request);
         }
-        JOptionPane.showMessageDialog(this, "Request Sent to Shelter Allocator!");
+        JOptionPane.showMessageDialog(this, "Request Sent to Hostel Allocator!");
         clearFields();
     }//GEN-LAST:event_btnSubmitActionPerformed
     public void clearFields() {

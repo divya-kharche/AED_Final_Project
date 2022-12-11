@@ -449,7 +449,7 @@ public class AccomodationOptionsWorkRequest extends javax.swing.JPanel {
         }
         request.setStatus("Completed");
         request.setTestResult("Sent to SP");
-        request.getShelterAllocWorkReq().setTestResult("Completed by Housing Options and and sent to Scheme Provision");
+        request.getShelterAllocWorkReq().setTestResult("Completed by Room Options and and sent to Scheme Provision");
         UserAccount account = new UserAccount();
         account.setUsername("None");
         request.getShelterAllocWorkReq().setReceiver(account);
@@ -492,7 +492,7 @@ public class AccomodationOptionsWorkRequest extends javax.swing.JPanel {
         UserAccount account = new UserAccount();
         account.setUsername("None");
         request.getShelterAllocWorkReq().setReceiver(account);
-        request.getShelterAllocWorkReq().setTestResult("The request has been denied by Housing Options!");
+        request.getShelterAllocWorkReq().setTestResult("The request has been denied by Room Options!");
         request.setStatus("Completed");
         JOptionPane.showMessageDialog(null,"Volunteer has been informed abt failure!");
     }//GEN-LAST:event_btnFailResultsActionPerformed

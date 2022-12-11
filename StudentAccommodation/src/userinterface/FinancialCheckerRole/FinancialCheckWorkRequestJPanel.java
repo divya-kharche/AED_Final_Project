@@ -216,7 +216,7 @@ public class FinancialCheckWorkRequestJPanel extends javax.swing.JPanel {
         request.getShelterAllocWorkReq().setReceiver(account);
         request.getShelterAllocWorkReq().setTestResult("Completed by Financial Checker and and sent to Housing Option");
         HousingOptionsWorkRequest fcRequest = new HousingOptionsWorkRequest();
-        fcRequest.setMessage("Provide Housing Options");
+        fcRequest.setMessage("Provide Room Options");
         fcRequest.setSender(userAccount);
         fcRequest.setStatus("Sent");
         fcRequest.setStudent(request.getStudent());
@@ -241,7 +241,7 @@ public class FinancialCheckWorkRequestJPanel extends javax.swing.JPanel {
         if (org != null) {
             org.getWorkQueue().getWorkRequestList().add(fcRequest);
             userAccount.getWorkQueue().getWorkRequestList().add(fcRequest);
-            JOptionPane.showMessageDialog(this, "Request Sent to Housing Options Organization");
+            JOptionPane.showMessageDialog(this, "Request Sent to Room Options Organization");
         }
     }//GEN-LAST:event_btnPassCheckActionPerformed
 

@@ -25,7 +25,7 @@ public class AccomodationOptionsProvider extends Role {
     }
     
     public String toString() {
-        return "Housing Options Provider";
+        return "Room Options Provider";
     }
     
 }

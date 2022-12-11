@@ -23,7 +23,7 @@ public abstract class Enterprise extends Organization{
     }
     
     public enum EnterpriseType{
-        StudentWelfareOrg("StudentWelfareOrg"), StudentVerification("Student Verification"), Hostel("Hostel"), Room("House Allocation"), UniversityOffice("Local Public Agency");
+        StudentWelfareOrg("StudentWelfareOrg"), StudentVerification("Student Verification"), Hostel("Hostel"), Room("Room Allocation"), UniversityOffice("University Office");
         
         private String value;
         
