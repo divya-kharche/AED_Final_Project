@@ -255,7 +255,7 @@ public class HostelAllocatorWorkRequestJPanel extends javax.swing.JPanel {
         UserAccount account = new UserAccount();
         account.setUsername("None");
         request.setReceiver(account);
-        request.setTestResult("Completed by Shelter Allocator and passed to Shelter Facilitator");
+        request.setTestResult("Completed by Hostel Allocator and passed to Hostel Facilitator");
         ShelterFacilitateWorkRequest sfRequest = new ShelterFacilitateWorkRequest();
         sfRequest.setMessage("Shelter Facilitation");
         sfRequest.setShelterAllocWorkReq(request);
@@ -283,7 +283,7 @@ public class HostelAllocatorWorkRequestJPanel extends javax.swing.JPanel {
         if (org != null) {
             org.getWorkQueue().getWorkRequestList().add(sfRequest);
             userAccount.getWorkQueue().getWorkRequestList().add(sfRequest);
-            JOptionPane.showMessageDialog(this, "Request Sent to Shelter Facilitator");
+            JOptionPane.showMessageDialog(this, "Request Sent to Hostel Facilitator");
 
         }
     }//GEN-LAST:event_btnSubmitActionPerformed

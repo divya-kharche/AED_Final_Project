@@ -24,7 +24,7 @@ public class HostelAllocater extends Role{
     }
     
     public String toString() {
-        return "Shelter Allocator";
+        return "Hostel Allocator";
     }
     
     

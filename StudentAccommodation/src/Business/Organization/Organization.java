@@ -27,7 +27,7 @@ public abstract class Organization {
         Admin("Admin Organization"), Volunteer("Volunteer"),
         BackgroundCheck("Background Check Organization"), FinancialCheck("Financial Check Organization"),
         HostelAllocation("Hostel Allocation"), HostelFacilitation("Hostel Facilitation"),
-        RoomOptions("Housing Options"), SchemeProvision("Scheme Provision"),
+        RoomOptions("Room Options"), SchemeProvision("Scheme Provision"),
         FinalizeHousing("Finalize Housing"), AccomodationAgreement("House Agreement");
         private String value;
         private Type(String value) {
