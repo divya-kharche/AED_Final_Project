@@ -21,19 +21,19 @@ This application is expected to reduce the accommodation problems faced by stude
 
 ABOUT PACKAGE
 
-- The Student Accommodation System is the JAVA swing project folder Which can be cloned or downloaded as zip and extracted
-- The project file can we open and ruined on any java GUI based IDE
+- The Student Accommodation System is the JAVA swing project folder which can be cloned or downloaded as zip and extracted
+- The project file can be open and run on any java GUI based IDE
 
 
 We have created a Student Accommodation System that includes multiple Enterprises - StudentWelfareOrg , Hostel ,Room ,StudentVerification, UniversityOffice. Each of these have sepearate oraganizations under them as below - 
 
-1. StudentWelfareOrg has  Volunteer
+1. StudentWelfareOrg has Volunteer
 2. Hostel has Allocation and Facilitation
 3. Room has AccommodationAgreement & Accommodationoptions
 4. StudentVerification has FinancialCheck & backgroundchecks,
 5. UniversityOffice has employees.
 
-All of these enterprises are part of a network  which is defined by a University Name such as Northeastern University
+All of these enterprises are part of a network which is defined by a University Name such as Northeastern University
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Features
